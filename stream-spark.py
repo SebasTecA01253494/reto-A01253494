@@ -38,9 +38,9 @@ st.title("Spark & streamlit")
 
 st.header("spark-submit Job")
 
-github_user  =  st.text_input('Github user', value='')
-github_repo  =  st.text_input('Github repo', value='')
-spark_job    =  st.text_input('Spark job', value='')
+github_user  =  st.text_input('Github user', value='SebasTecA01253494')
+github_repo  =  st.text_input('Github repo', value='reto-A01253494')
+spark_job    =  st.text_input('Spark job', value='spark')
 github_token =  st.text_input('Github token', value='')
 
 if st.button("POST spark submit"):
@@ -48,7 +48,7 @@ if st.button("POST spark submit"):
 
 st.header("spark-submit results")
 
-url_results=  st.text_input('URL results', value='https://raw.githubusercontent.com/SebasTecA01253494/git-labs/refs/heads/master/results/data.json')
+url_results=  st.text_input('URL results', value='https://raw.githubusercontent.com/SebasTecA01253494/reto-A01253494/refs/heads/master/results/data.json')
 
 if st.button("GET spark results"):
     get_spark_results(url_results)
