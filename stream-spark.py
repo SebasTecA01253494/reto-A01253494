@@ -34,7 +34,7 @@ def get_spark_results(url_results):
     if  (response.status_code ==  200):
         st.write(response.json())
     
-st.title("Spark & streamlit")
+st.title("Sebastian Reto A01253494")
 
 st.header("spark-submit Job")
 
